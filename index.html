@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Modal (JS)</title>
+	<meta name="description" content="Модальное окно на чистом JavaScript">
+	<meta name="generator" content="www.batas.kz">
+	<meta name="author" content="botyk_87@mail.ru">
+	<meta name="copyright" content="https://batas.kz/">
+	<link href="css/my.css" rel="stylesheet">
+	<link href="img/favicon.png" rel="icon">
+</head>
+<body>
+<div class="container">
+
+	<!-- Default -->
+	<button type="button" class="btn" onclick="modal('myModal')">Default</button>
+	<div id="myModal" class="modal">
+		<div class="modalContent">
+			<div class="modalHeader">
+				<span class="modalClose" data-close="true">&times;</span>
+				Modal header (Default)
+			</div>
+			<div class="modalBody">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry. Lorem Ipsum has been the industry's standard dummy text
+				ever since the 1500s, when an printer took a galley of type
+				and scrambled it to make a type specimen book. It has survived not
+				only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged.</p>
+			</div>
+			<div class="modalFooter">
+				Modal footer
+				<div>
+					<button type="button" class="btn" data-close="true">Close</button>
+					<button type="button" class="btn btnPrimary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Primary -->
+	<button type="button" class="btn btnPrimary" onclick="modal('myModal2')">Primary</button>
+	<div id="myModal2" class="modal">
+		<div class="modalContent modalPrimary">
+			<div class="modalHeader">
+				<span class="modalClose" data-close="true">&times;</span>
+				Modal header (Primary)
+			</div>
+			<div class="modalBody">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry. Lorem Ipsum has been the industry's standard dummy text
+				ever since the 1500s, when an unknown printer took a galley of type
+				and scrambled it to make a type specimen book. It has survived not
+				only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged.</p>
+			</div>
+			<div class="modalFooter">
+				Modal footer
+				<div>
+					<button type="button" class="btn" data-close="true">Close</button>
+					<button type="button" class="btn btnInfo">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Success -->
+	<button type="button" class="btn btnSuccess" onclick="modal('myModal3')">Success</button>
+	<div id="myModal3" class="modal">
+		<div class="modalContent modalSuccess">
+			<div class="modalHeader">
+				<span class="modalClose" data-close="true">&times;</span>
+				Modal header (Success)
+			</div>
+			<div class="modalBody">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry. Lorem Ipsum has been the industry's standard dummy text
+				ever since the 1500s, when an unknown printer took a galley of type
+				and scrambled it to make a type specimen book. It has survived not
+				only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged.</p>
+			</div>
+			<div class="modalFooter">
+				Modal footer
+				<div>
+					<button type="button" class="btn" data-close="true">Close</button>
+					<button type="button" class="btn btnWarning">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Info -->
+	<button type="button" class="btn btnInfo" onclick="modal('myModal4')">Info</button>
+	<div id="myModal4" class="modal">
+		<div class="modalContent modalInfo">
+			<div class="modalHeader">
+				<span class="modalClose" data-close="true">&times;</span>
+				Modal header (Info)
+			</div>
+			<div class="modalBody">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry. Lorem Ipsum has been the industry's standard dummy text
+				ever since the 1500s, when an unknown printer took a galley of type
+				and scrambled it to make a type specimen book. It has survived not
+				only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged.</p>
+			</div>
+			<div class="modalFooter">
+				Modal footer
+				<div>
+					<button type="button" class="btn" data-close="true">Close</button>
+					<button type="button" class="btn btnPrimary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Warning -->
+	<button type="button" class="btn btnWarning" onclick="modal('myModal5')">Warning</button>
+	<div id="myModal5" class="modal">
+		<div class="modalContent modalWarning">
+			<div class="modalHeader">
+				<span class="modalClose" data-close="true">&times;</span>
+				Modal header (Warning)
+			</div>
+			<div class="modalBody">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry. Lorem Ipsum has been the industry's standard dummy text
+				ever since the 1500s, when an unknown printer took a galley of type
+				and scrambled it to make a type specimen book. It has survived not
+				only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged.</p>
+			</div>
+			<div class="modalFooter">
+				Modal footer
+				<div>
+					<button type="button" class="btn" data-close="true">Close</button>
+					<button type="button" class="btn btnSuccess">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Danger -->
+	<button type="button" class="btn btnDanger" onclick="modal('myModal6')">Danger</button>
+	<div id="myModal6" class="modal">
+		<div class="modalContent modalDanger">
+			<div class="modalHeader">
+				<span class="modalClose" data-close="true">&times;</span>
+				Modal header (Danger)
+			</div>
+			<div class="modalBody">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry. Lorem Ipsum has been the industry's standard dummy text
+				ever since the 1500s, when an unknown printer took a galley of type
+				and scrambled it to make a type specimen book. It has survived not
+				only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged.</p>
+			</div>
+			<div class="modalFooter">
+				Modal footer
+				<div>
+					<button type="button" class="btn" data-close="true">Close</button>
+					<button type="button" class="btn btnWarning">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h1>Modal dialog pure JavaScript</h1>
+	<p>Lorem Ipsum is simply dummy of the printing and typesetting
+	industry. Lorem Ipsum has been the industry's standard dummy text
+	ever since the 1500s, when an unknown printer took a galley of type
+	and scrambled it to make a type specimen book. It has survived not
+	only five centuries, but also the leap into electronic typesetting,
+	remaining essentially unchanged.</p>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+	industry. Lorem Ipsum has been the industry's standard dummy text
+	ever since the 1500s, when an unknown printer took a galley of type
+	and scrambled it to make a type specimen book. It has survived not
+	only five centuries, but also the leap into electronic typesetting,
+	remaining essentially unchanged.</p>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+	industry. Lorem Ipsum has been the industry's standard dummy text
+	ever since the 1500s, when an unknown printer took a galley of type
+	and scrambled it to make a type specimen book. It has survived not
+	only five centuries, but also the leap into electronic typesetting,
+	remaining essentially unchanged.</p>
+</div>
+<script src="js/my.js"></script>
+</body>
+</html>
